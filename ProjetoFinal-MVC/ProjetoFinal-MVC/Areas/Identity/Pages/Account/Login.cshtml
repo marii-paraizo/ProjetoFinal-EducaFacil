@@ -1,0 +1,51 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Login";
+    ViewData["HideNavAndFooter"] = true;
+}
+
+<div class="register-main-container">
+
+    <header class="register-header">
+        <a asp-controller="Home" asp-action="Index" class="logo-link">
+            <img src="~/Img/Logo-CadastroLogin.png" alt="EducaFácil Logo" class="register-logo" />
+        </a>
+    </header>
+
+    <div class="register-card-wrapper">
+        <div class="login-card">
+
+            <h2 class="login-title">Login</h2>
+
+            <form id="account" method="post" class="login-form-container login-form-centered-wrapper">
+                <div asp-validation-summary="All" class="text-danger validation-summary"></div>
+
+                <div class="form-group">
+                    <input asp-for="Input.Email" placeholder="E-mail" class="input-field" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input asp-for="Input.Password" placeholder="Senha" type="password" class="input-field" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn-confirmar">ENTRAR</button>
+
+                <div class="form-group" style="display: none;">
+                    <input asp-for="Input.RememberMe" />
+                    <label asp-for="Input.RememberMe"></label>
+                </div>
+
+                <div class="action-link-group">
+
+                    <span class="primary-action-link">Ainda não tem uma conta?</span>
+
+                    <a asp-page="./Register" class="secondary-action-link">Cadastre-se</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

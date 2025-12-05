@@ -1,0 +1,73 @@
+﻿@model ProjetoFinal_MVC.Models.InputModels.TurmaInputModel
+@{
+    ViewData["Title"] = "Cadastrar turmas";
+    ViewData["IsFullWidthPage"] = true;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+}
+
+<div class="container-principal">
+    <div class="form-cadastro">
+        <h2>Cadastrar nova turma</h2>
+
+        <form asp-action="Cadastrar" method="post" id="formCadastrarTurma">
+
+            <div class="form-group">
+                <input asp-for="Nome" placeholder="Nome da turma" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group input-com-icone">
+                <input asp-for="AnoLetivo" type="text" placeholder="Ano letivo" class="datepicker-year"
+                       value="@(Model == null ? DateTime.Now.Year : Model.AnoLetivo)" />
+                <i class="fas fa-calendar-alt icone-calendario" id="calendar-trigger"></i>
+                <span asp-validation-for="AnoLetivo" class="text-danger"></span>
+            </div>
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="botoes-cadastro">
+                <button type="submit" class="btn-confirma">CONFIRMAR</button>
+                <a href="@Url.Action("Index", "Turmas")" class="btn-cancela">CANCELAR</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const fp = flatpickr(".datepicker-year", {
+                dateFormat: "Y",
+                minDate: "2000",
+                maxDate: "2100",
+                disableMobile: true,
+
+                wrap: false,
+            });
+
+            document.getElementById('calendar-trigger').addEventListener('click', function (e) {
+                e.preventDefault();
+                fp.open();
+            });
+
+            const iconePerfil = document.querySelector('.icone-perfil');
+            const userInfo = document.getElementById('userInfo');
+
+            if (iconePerfil) {
+                iconePerfil.addEventListener('click', () => {
+                    userInfo.classList.toggle('ativo');
+                });
+                document.addEventListener('click', (e) => {
+                    if (!iconePerfil.contains(e.target) && !userInfo.contains(e.target)) {
+                        userInfo.classList.remove('ativo');
+                    }
+                });
+            }
+        });
+    </script>
+}

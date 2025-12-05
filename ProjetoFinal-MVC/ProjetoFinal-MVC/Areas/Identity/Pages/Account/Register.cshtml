@@ -1,0 +1,80 @@
+﻿@page
+@model ProjetoFinal_MVC.Areas.Identity.Pages.Account.RegisterModel
+@{
+    ViewData["Title"] = "Registre-se";
+
+    ViewData["HideNavAndFooter"] = true;
+}
+
+<div class="register-main-container">
+
+    <header class="register-header">
+        <a asp-controller="Home" asp-action="Index" class="logo-link">
+            <img src="~/Img/Logo-CadastroLogin.png" alt="EducaFácil Logo" class="register-logo" />
+        </a>
+    </header>
+
+    <div class="register-card-wrapper">
+        <div class="register-card">
+
+            <div class="profile-area">
+                <div class="profile-pic-container">
+                    <img id="foto-preview" src="/img/Default-perfil.png"
+                         alt="Foto de perfil" class="profile-image" />
+                </div>
+
+                <label class="upload-btn">
+                    <input type="file" asp-for="Input.FotoPerfil" id="foto-input" accept="image/*" hidden />
+                    <span>Mudar foto de perfil</span>
+                    <i class="fa fa-pencil"></i>
+                </label>
+            </div>
+
+            <div class="form-area">
+                <h2 class="register-title">Registre-se</h2>
+
+                <form asp-route-returnUrl="@Model.ReturnUrl" method="post" enctype="multipart/form-data" class="register-form">
+                    <div asp-validation-summary="ModelOnly" class="text-danger validation-summary"></div>
+
+                    <input asp-for="Input.Nome" placeholder="Nome" class="input-field" />
+                    <span asp-validation-for="Input.Nome" class="text-danger"></span>
+
+                    <input asp-for="Input.Email" placeholder="E-mail" class="input-field" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+
+                    <input asp-for="Input.Password" placeholder="Senha" type="password" class="input-field" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+
+                    <input asp-for="Input.ConfirmPassword" placeholder="Confirmar senha" type="password" class="input-field" />
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+
+                    <button type="submit" class="btn-confirmar">CONCLUIR</button>
+
+                    <div class="login-link">
+                        <a asp-page="./Login">Já tem uma conta?</a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        const fotoInput = document.getElementById('foto-input');
+        const fotoPreview = document.getElementById('foto-preview');
+        fotoInput.addEventListener('change', function (event) {
+            
+            if (event.target.files && event.target.files[0]) {
+                const reader = new FileReader(); 
+
+                reader.onload = function (e) {
+                    fotoPreview.src = e.target.result;
+                }
+                reader.readAsDataURL(event.target.files[0]);
+            }
+        });
+    </script>
+}

@@ -1,0 +1,144 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProjetoFinal_MVC.Data
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProjetoFinal_MVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+@{
+    bool hideNavAndFooter = ViewData["HideNavAndFooter"] as bool? ?? false;
+
+    string bodyClass = hideNavAndFooter ? "register-page-body" : "";
+
+    string nomeUsuario = "";
+    string fotoPerfilUrl = "";
+
+    if (User.Identity.IsAuthenticated)
+    {
+        var user = await UserManager.GetUserAsync(User);
+        if (user != null)
+        {
+            if (!string.IsNullOrEmpty(user.Nome))
+            {
+                nomeUsuario = user.Nome;
+            }
+            else
+            {
+                nomeUsuario = User.Identity.Name;
+            }
+            if (!string.IsNullOrEmpty(user.FotoPerfil))
+            {
+                fotoPerfilUrl = user.FotoPerfil;
+            }
+        }
+    }
+}
+<body class="@bodyClass">
+
+    @if (!hideNavAndFooter)
+    {
+        string currentController = ViewContext.RouteData.Values["Controller"]?.ToString() ?? "";
+
+        <header>
+            <nav class="Nav-Laranja">
+                <div class="Nav-Container">
+
+                    <a asp-area="" asp-controller="Home" asp-action="Dashboard" class="Logo-Link">
+                        <img src="~/Img/Logo-Header.png" alt="EducaFácil Logo" class="Logo-Header">
+                    </a>
+
+                    <div class="Abas-Container">
+
+                        <a asp-area="" asp-controller="Turmas" asp-action="Index"
+                           class="Aba-Link @(currentController == "Turmas" ? "Ativa" : "")"
+                           id="Aba-Turmas">Turmas</a>
+
+                        <a asp-area="" asp-controller="Presencas" asp-action="Index"
+                           class="Aba-Link @(currentController == "Presencas" ? "Ativa" : "")"
+                           id="Aba-ListaPresenca">Lista de presença</a>
+                    </div>
+
+                    <div class="Perfil-Container" id="Toggle-Perfil-Menu">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (!string.IsNullOrEmpty(fotoPerfilUrl))
+                            {
+                                <img src="@Url.Content(fotoPerfilUrl)" alt="Foto de Perfil" class="Foto-Perfil Icon-Perfil">
+                            }
+                            else
+                            {
+                                <i class="fas fa-user-circle Icon-Perfil"></i>
+                            }
+
+                            <div class="Perfil-Dropdown" id="Perfil-Menu">
+
+                                <p class="Nome-Usuario">
+                                    Conta logada como:
+                                    <br />
+                                    <strong>
+                                        @nomeUsuario
+                                    </strong>
+                                </p>
+
+                                <a asp-area="Identity" asp-page="/Account/Logout" class="Botao-Sair" title="Sair da Conta">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    SAIR DA CONTA
+                                </a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </nav>
+        </header>
+    }
+
+    <div class="@(ViewData["IsFullWidthPage"] as bool? == true ? "" : "container")">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @if (!hideNavAndFooter)
+    {
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2025 - EducaFácil - Mariana Paraizo
+            </div>
+        </footer>
+    }
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleButton = document.getElementById('Toggle-Perfil-Menu');
+            const menu = document.getElementById('Perfil-Menu');
+
+            if (toggleButton && menu) {
+                toggleButton.addEventListener('click', function (event) {
+                    menu.classList.toggle('Visivel');
+                    event.stopPropagation();
+                });
+
+                document.addEventListener('click', function (event) {
+                    if (!menu.contains(event.target) && !toggleButton.contains(event.target)) {
+                        menu.classList.remove('Visivel');
+                    }
+                });
+            }
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,83 @@
+﻿@model ProjetoFinal_MVC.Models.InputModels.NotaInputModel
+@using ProjetoFinal_MVC.Models.ViewModels
+@{
+    var idAluno = Model.IdAluno != Guid.Empty ? Model.IdAluno : (Guid)ViewBag.IdAluno;
+    var nomeAluno = ViewBag.NomeAluno as string ?? "Aluno Desconhecido";
+
+    ViewData["Title"] = $"Adicionar Nota para: {nomeAluno}";
+    ViewData["IsFullWidthPage"] = true;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+}
+
+<div class="header-alunos">
+    <div class="titulo-turma">
+        <a href="@Url.Action("Index", "Notas", new { idAluno = idAluno })" class="btn-voltar-turmas">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <h2>Adicionar Nota para: @nomeAluno</h2>
+    </div>
+</div>
+
+<div class="container-principal">
+    <div class="form-cadastro">
+        <h2>Lançar nova nota</h2>
+
+        <form asp-controller="Notas" asp-action="Adicionar" method="post" id="formCadastrarNota">
+
+            <input type="hidden" asp-for="IdAluno" value="@idAluno" />
+
+            <input type="hidden" asp-for="IdNota" value="@Guid.Empty" />
+
+            <div class="form-group">
+                <input asp-for="Avaliacao" type="text" placeholder="Nome da Avaliação (Ex: Prova 1, Trabalho Final)" />
+                <span asp-validation-for="Avaliacao" class="text-danger"></span>
+            </div>
+
+            <div class="form-group input-com-icone">
+                <input asp-for="DataAvaliacao" type="text" placeholder="Data da Avaliação" class="datepicker-data input-dashed" />
+                <i class="fas fa-calendar-alt icone-calendario" id="data-avaliacao-trigger"></i>
+                <span asp-validation-for="DataAvaliacao" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <input asp-for="Nota" type="number" step="0.01" placeholder="Nota (0.0 a 10.0)" />
+                <span asp-validation-for="Nota" class="text-danger"></span>
+            </div>
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="botoes-cadastro">
+                <button type="submit" class="btn-confirma">CONFIRMAR</button>
+
+                <a href="@Url.Action("Index", "Notas", new { idAluno = idAluno })" class="btn-cancela">CANCELAR</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const dataInput = document.querySelector(".datepicker-data");
+
+            const fpDataAvaliacao = flatpickr(dataInput, {
+                dateFormat: "Y-m-d",
+                altInput: true,
+                altFormat: "d/m/Y",
+                disableMobile: true,
+                maxDate: "today",
+                wrap: false,
+            });
+
+            document.getElementById('data-avaliacao-trigger').addEventListener('click', function (e) {
+                e.preventDefault();
+                fpDataAvaliacao.open();
+            });
+        });
+    </script>
+}

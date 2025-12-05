@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Lista de Presença";
+}
+
+<div class="content">
+    <h1>Lista de presença</h1>
+
+    <div class="top-controls">
+        <button id="btnSalvar" class="btn-salvar">SALVAR</button>
+        <input type="date" id="dataAula" />
+        <select id="turmaSelect">
+            <option value="">Selecione a turma...</option>
+        </select>
+    </div>
+
+    <table class="tabela-presenca">
+        <thead>
+            <tr>
+                <th>Alunos</th>
+                <th>Presença</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaBody">
+            <!-- linhas geradas dinamicamente -->
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const dropdown = document.getElementById("profileDropdown");
+            document.getElementById("profileIcon").addEventListener("click", () => {
+                dropdown.classList.toggle("show");
+            });
+
+            window.addEventListener("click", e => {
+                if (!e.target.closest("#profileIcon")) dropdown.classList.remove("show");
+            });
+
+            // carregar turmas (exemplo)
+            fetch("/api/Turmas")
+                .then(r => r.json())
+                .then(turmas => {
+                    const select = document.getElementById("turmaSelect");
+                    turmas.forEach(t => {
+                        const opt = document.createElement("option");
+                        opt.value = t.idTurma;
+                        opt.textContent = t.nome;
+                        select.appendChild(opt);
+                    });
+                });
+
+            // carregar alunos e presenças
+            async function carregarPresencas() {
+                const turma = document.getElementById("turmaSelect").value;
+                const data = document.getElementById("dataAula").value;
+                if (!turma || !data) return;
+
+                const res = await fetch(`/api/Presencas/turma/${turma}/data/${data}`);
+                const lista = await res.json();
+
+                const tabela = document.getElementById("tabelaBody");
+                tabela.innerHTML = "";
+
+                lista.forEach(p => {
+                    const tr = document.createElement("tr");
+                    tr.innerHTML = `
+                        <td>${p.nomeAluno || "Aluno"}</td>
+                        <td>
+                            <button class="btn-presenca ${p.presente ? "presente" : "falta"}"
+                                    data-idaluno="${p.idAluno}">
+                                ${p.presente ? "✔" : "✘"}
+                            </button>
+                        </td>`;
+                    tabela.appendChild(tr);
+                });
+
+                document.querySelectorAll(".btn-presenca").forEach(btn => {
+                    btn.addEventListener("click", () => {
+                        btn.classList.toggle("presente");
+                        btn.classList.toggle("falta");
+                        btn.textContent = btn.classList.contains("presente") ? "✔" : "✘";
+                    });
+                });
+            }
+
+            document.getElementById("turmaSelect").addEventListener("change", carregarPresencas);
+            document.getElementById("dataAula").addEventListener("change", carregarPresencas);
+
+            // salvar presenças
+            document.getElementById("btnSalvar").addEventListener("click", async () => {
+                const turma = document.getElementById("turmaSelect").value;
+                const data = document.getElementById("dataAula").value;
+                const botoes = document.querySelectorAll(".btn-presenca");
+
+                for (const btn of botoes) {
+                    const presenca = {
+                        idAluno: btn.dataset.idaluno,
+                        idTurma: turma,
+                        dataAula: data,
+                        presente: btn.classList.contains("presente")
+                    };
+
+                    await fetch("/api/Presencas/registrar", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify(presenca)
+                    });
+                }
+
+                alert("Presenças salvas com sucesso!");
+            });
+        });
+    </script>
+}

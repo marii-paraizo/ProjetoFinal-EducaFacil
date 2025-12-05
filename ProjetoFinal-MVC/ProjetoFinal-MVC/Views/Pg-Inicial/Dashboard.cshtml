@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Página Inicial";
+    ViewData["IsFullWidthPage"] = true;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaFácil - Simplifique Sua Rotina</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <main class="hero-section">
+        <div class="hero-content-wrapper">
+
+            <div class="hero-text-and-cards">
+                <p class="hero-description">
+                    Ser professor já é um desafio enorme — e administrar turmas, presenças e
+                    notas não precisa ser mais um. O EducaFácil veio pra simplificar sua
+                    rotina: tudo o que você precisa para organizar suas aulas está reunido em
+                    uma única plataforma, prática e acessível. Menos papelada, menos planilhas
+                    e mais tempo para ensinar de verdade.
+                </p>
+
+                <section class="card-container">
+
+                    <div class="feature-card">
+                        <div class="card-header-flex">
+                            <img src="@Url.Content("~/Img/Icon-Turmas.png")" alt="Ícone Turmas" class="card-icon">
+                            <h2 class="card-title">Gerencie suas turmas</h2>
+                        </div>
+                        <div class="card-info">
+                            <p class="card-text">Cadastre e organize suas turmas e alunos facilmente</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-header-flex">
+                            <img src="@Url.Content("~/Img/Icon-Agenda.png")" alt="Ícone Agenda" class="card-icon">
+                            <h2 class="card-title">Controle de presença</h2>
+                        </div>
+                        <div class="card-info">
+                            <p class="card-text">Registre e visualize as faltas rapidamente</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-header-flex">
+                            <img src="@Url.Content("~/Img/Icon-Caderno.png")" alt="Ícone Caderno" class="card-icon">
+                            <h2 class="card-title">Notas e avaliações</h2>
+                        </div>
+                        <div class="card-info">
+                            <p class="card-text">Adicione notas e acompanhe o desempenho dos alunos</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="hero-image-container">
+                <img src="@Url.Content("~/Img/Foto-PgInicial.png")" alt="Professor e alunos interagindo" class="hero-photo">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

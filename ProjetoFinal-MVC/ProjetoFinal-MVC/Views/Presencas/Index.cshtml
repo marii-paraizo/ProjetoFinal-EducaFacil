@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Lista de Presença";
+    ViewData["IsFullWidthPage"] = true;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    ViewBag.BaseApiUrlPresencas = "https://localhost:7126/api/Presencas";
+    ViewBag.BaseApiUrlTurmas = "https://localhost:7126/api/Turmas";
+    ViewBag.BaseApiUrlAlunos = "https://localhost:7126/api/Alunos";
+}
+<div class="container-principal">
+<div class="content-header">
+        <h1 class="titulo-lista">Lista de Presença</h1>
+</div>
+
+@Html.AntiForgeryToken()
+
+<div class="lista-presenca-controles">
+    <div class="acoes-data-turma">
+
+        <div class="select-wrapper">
+            <select id="select-turma" class="select-turma-data" title="Selecione a turma" required>
+                <option value="" disabled selected>Selecione a turma...</option>
+            </select>
+        </div>
+
+        <div class="input-data-wrapper">
+            <input type="date" id="input-data-aula" class="select-turma-data" title="Selecione a data da aula" required>
+        </div>
+
+        <button id="btn-salvar-presenca" class="btn-salvar btn-salvar-presenca" disabled>
+            SALVAR
+        </button>
+    </div>
+</div>
+
+<div id="lista-presenca-container" class="lista-presenca-container">
+    <div id="status-message" class="mensagem-status">
+        Selecione uma Turma e uma Data para usar a lista de presença.
+    </div>
+
+    <div id="tabela-presenca" class="tabela-presenca" style="display:none;">
+        <div class="cabecalho-presenca">
+            <div class="col-aluno cabecalho-aluno">Alunos</div>
+            <div class="col-presenca cabecalho-presenca-status">Presença</div>
+        </div>
+        <div id="corpo-tabela-presenca" class="corpo-tabela-presenca">
+        </div>
+    </div>
+</div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/site.js"
+            data-api-presencas="@ViewBag.BaseApiUrlPresencas"
+            data-api-turmas="@ViewBag.BaseApiUrlTurmas"
+            data-api-alunos="@ViewBag.BaseApiUrlAlunos">
+    </script>
+}

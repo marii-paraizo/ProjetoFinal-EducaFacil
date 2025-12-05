@@ -1,0 +1,78 @@
+﻿@model ProjetoFinal_MVC.Models.ViewModels.AlunoViewModel
+@{
+    ViewData["Title"] = "Editar Aluno(a)";
+    ViewData["IsFullWidthPage"] = true;
+
+    // Referências de CSS/JS
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    Guid idTurma = Model.IdTurma;
+}
+
+<div class="main-content">
+    <div class="form-cadastro">
+        <h2>Editar Aluno(a)</h2>
+
+        <form asp-action="ConfirmarEdicao" method="post">
+            @* AQUI VÃO TODOS OS ERROS DE VALIDAÇÃO DO MVC E DA API *@
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="IdAluno" />
+            <input type="hidden" asp-for="IdTurma" />
+
+            <div class="form-group">
+                <input asp-for="Nome" type="text" placeholder="Nome do aluno" required />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            @* CAMPO DE DATA COM FLATPCIKR *@
+            <div class="form-group input-com-icone">
+                <input asp-for="DataNascimento" type="text" placeholder="Data de nascimento" class="datepicker-data input-dashed" />
+                <i class="fas fa-calendar-alt icone-calendario" id="data-nascimento-trigger"></i>
+                <span asp-validation-for="DataNascimento" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input asp-for="Rm" type="text" placeholder="RM" required />
+                <span asp-validation-for="Rm" class="text-danger"></span>
+            </div>
+
+            <div class="botoes-cadastro">
+                <button type="submit" class="btn-confirma">CONFIRMAR EDIÇÃO</button>
+                <a asp-action="Index" asp-controller="Alunos" asp-route-idTurma="@Model.IdTurma" class="btn-cancela">CANCELAR</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const dataInput = document.querySelector(".datepicker-data");
+
+            const fpDataNascimento = flatpickr(dataInput, {
+                dateFormat: "Y-m-d", // Formato C# DateOnly
+                altInput: true,
+                altFormat: "d/m/Y", // Formato visual
+                disableMobile: true,
+                maxDate: "today",
+                wrap: false,
+            });
+
+            // Adiciona evento de clique ao ícone para abrir o calendário
+            document.getElementById('data-nascimento-trigger').addEventListener('click', function (e) {
+                e.preventDefault();
+                fpDataNascimento.open();
+            });
+
+            // Garante que o flatpickr recarregue o valor inicial, mesmo após postback
+            if (dataInput.value) {
+                fpDataNascimento.setDate(dataInput.value, true);
+            }
+        });
+    </script>
+}

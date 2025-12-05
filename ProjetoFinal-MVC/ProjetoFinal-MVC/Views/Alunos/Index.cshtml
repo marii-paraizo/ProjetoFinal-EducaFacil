@@ -1,0 +1,88 @@
+﻿@model List<ProjetoFinal_MVC.Models.ViewModels.AlunoViewModel>
+@using ProjetoFinal_MVC.Models.ViewModels
+@{
+    var idTurma = ViewBag.IdTurma as Guid? ?? Guid.Empty;
+    var nomeTurma = ViewBag.NomeTurma as string ?? "Turma Desconhecida";
+    var baseApiUrl = "https://localhost:7126/api/Alunos";
+
+    ViewData["Title"] = $"Alunos da turma: {nomeTurma}";
+    ViewData["IsFullWidthPage"] = true;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+}
+
+<div class="header-alunos">
+    <div class="titulo-turma">
+        <a href="@Url.Action("Index", "Turmas")" class="btn-voltar-turmas">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <h1>Alunos da turma: <strong>@nomeTurma</strong></h1>
+    </div>
+    <div class="acoes">
+        <a href="@Url.Action("Cadastrar", "Alunos", new { idTurma = idTurma })" class="btn-adicionar">
+            + ADICIONAR ALUNO(A)
+        </a>
+    </div>
+</div>
+
+<div class="container-alunos-lista">
+    @if (!string.IsNullOrEmpty(ViewBag.ErroApi) || !string.IsNullOrEmpty(ViewBag.ErroTurma))
+    {
+        @* Se houver erro de API ou de carregamento da Turma, só exibe o erro *@
+        <p class="text-danger">@(ViewBag.ErroApi ?? ViewBag.ErroTurma)</p>
+    }
+    else if (Model == null || !Model.Any())
+    {
+        <p>Nenhum aluno cadastrado nesta turma. Clique em "+ Adicionar aluno(a)".</p>
+    }
+    else
+    {
+        <table class="tabela-alunos">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Data de Nascimento</th>
+                    <th>Rm</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var aluno in Model)
+                {
+                    @* Linha Clicável para Notas *@
+                    <tr class="linha-aluno-clicavel" data-href="@Url.Action("Index", "Notas", new { idAluno = aluno.IdAluno, nomeAluno = aluno.Nome })">
+                        <td>@aluno.Nome</td>
+                        <td>@aluno.DataNascimento.ToString("dd-MM-yyyy")</td>
+                        <td>@aluno.Rm</td>
+                        <td>
+                            <a href="@Url.Action("Editar", "Alunos", new { id = aluno.IdAluno })" class="btn-editar" onclick="event.stopPropagation();">EDITAR</a>
+                            <button class="btn-apagar btn-apagar-aluno"
+                                    data-aluno-id="@aluno.IdAluno"
+                                    data-aluno-nome="@aluno.Nome"
+                                    onclick="event.stopPropagation();">
+                                APAGAR
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+@* MODAL DE CONFIRMAÇÃO PARA EXCLUSÃO DE ALUNOS *@
+<div class="modal-overlay" id="modalExclusaoAluno">
+    <div class="modal-confirmacao">
+        <p>Tem certeza que deseja excluir o aluno <strong><span id="nomeAlunoExcluir"></span></strong>?</p>
+        <div class="modal-botoes">
+            <button id="btn-excluir-aluno-confirmar" class="btn-apagar">SIM, EXCLUIR</button>
+            <button id="btn-excluir-aluno-cancelar" class="btn-cancela">CANCELAR</button>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/site.js"
+            data-api-url="@baseApiUrl"
+            data-id-turma="@idTurma"></script>
+}

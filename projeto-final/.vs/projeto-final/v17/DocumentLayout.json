@@ -1,0 +1,404 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\data\\notadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\data\\notadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\data\\turmadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\data\\turmadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\data\\alunodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\data\\alunodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\controllers\\presencascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\controllers\\presencascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\data\\iconexaosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\data\\iconexaosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\data\\presencadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\data\\presencadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\data\\conexaosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\data\\conexaosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\models\\inputmodels\\alunoinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\models\\inputmodels\\alunoinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\models\\viewmodels\\notaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\models\\viewmodels\\notaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\models\\viewmodels\\alunoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\models\\viewmodels\\alunoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\models\\inputmodels\\turmainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\models\\inputmodels\\turmainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\models\\inputmodels\\presencainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\models\\inputmodels\\presencainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\models\\inputmodels\\notainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\models\\inputmodels\\notainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\models\\viewmodels\\turmaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\models\\viewmodels\\turmaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\models\\viewmodels\\presencaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\models\\viewmodels\\presencaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\projeto-final.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\projeto-final.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projeto-final\\projeto-final\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D032064E-889E-4A16-8D01-28568753C5E8}|projeto-final\\projeto-final.csproj|solutionrelative:projeto-final\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotasController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Controllers\\NotasController.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Controllers\\NotasController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Controllers\\NotasController.cs",
+              "RelativeToolTip": "projeto-final\\Controllers\\NotasController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAqwEMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:52:06.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlunosController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Controllers\\AlunosController.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Controllers\\AlunosController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Controllers\\AlunosController.cs",
+              "RelativeToolTip": "projeto-final\\Controllers\\AlunosController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswHkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T13:19:08.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlunoDB.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\AlunoDB.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Data\\AlunoDB.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\AlunoDB.cs",
+              "RelativeToolTip": "projeto-final\\Data\\AlunoDB.cs",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAwwAUBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T13:02:44.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TurmaDB.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\TurmaDB.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Data\\TurmaDB.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\TurmaDB.cs",
+              "RelativeToolTip": "projeto-final\\Data\\TurmaDB.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAA/wJQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:01:04.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TurmasController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Controllers\\TurmasController.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Controllers\\TurmasController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Controllers\\TurmasController.cs",
+              "RelativeToolTip": "projeto-final\\Controllers\\TurmasController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswH8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:32:54.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PresencasController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Controllers\\PresencasController.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Controllers\\PresencasController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Controllers\\PresencasController.cs",
+              "RelativeToolTip": "projeto-final\\Controllers\\PresencasController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswEIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:48:33.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotaDB.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\NotaDB.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Data\\NotaDB.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\NotaDB.cs",
+              "RelativeToolTip": "projeto-final\\Data\\NotaDB.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAADwv3EAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:50:59.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Program.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Program.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Program.cs",
+              "RelativeToolTip": "projeto-final\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T17:13:05.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IConexaoSql.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\IConexaoSql.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Data\\IConexaoSql.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\IConexaoSql.cs",
+              "RelativeToolTip": "projeto-final\\Data\\IConexaoSql.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T13:07:28.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PresencaDB.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\PresencaDB.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Data\\PresencaDB.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\PresencaDB.cs",
+              "RelativeToolTip": "projeto-final\\Data\\PresencaDB.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAwwLsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:47:13.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConexaoSql.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\ConexaoSql.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Data\\ConexaoSql.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Data\\ConexaoSql.cs",
+              "RelativeToolTip": "projeto-final\\Data\\ConexaoSql.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T13:06:15.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\appsettings.json",
+              "RelativeDocumentMoniker": "projeto-final\\appsettings.json",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\appsettings.json",
+              "RelativeToolTip": "projeto-final\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-23T13:08:40.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AlunoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\ViewModels\\AlunoViewModel.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Models\\ViewModels\\AlunoViewModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\ViewModels\\AlunoViewModel.cs",
+              "RelativeToolTip": "projeto-final\\Models\\ViewModels\\AlunoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:55:28.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TurmaInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\InputModels\\TurmaInputModel.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Models\\InputModels\\TurmaInputModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\InputModels\\TurmaInputModel.cs",
+              "RelativeToolTip": "projeto-final\\Models\\InputModels\\TurmaInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:30:31.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AlunoInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\InputModels\\AlunoInputModel.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Models\\InputModels\\AlunoInputModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\InputModels\\AlunoInputModel.cs",
+              "RelativeToolTip": "projeto-final\\Models\\InputModels\\AlunoInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:55:09.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PresencaInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\InputModels\\PresencaInputModel.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Models\\InputModels\\PresencaInputModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\InputModels\\PresencaInputModel.cs",
+              "RelativeToolTip": "projeto-final\\Models\\InputModels\\PresencaInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:45:25.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NotaInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\InputModels\\NotaInputModel.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Models\\InputModels\\NotaInputModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\InputModels\\NotaInputModel.cs",
+              "RelativeToolTip": "projeto-final\\Models\\InputModels\\NotaInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:49:57.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NotaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\ViewModels\\NotaViewModel.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Models\\ViewModels\\NotaViewModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\ViewModels\\NotaViewModel.cs",
+              "RelativeToolTip": "projeto-final\\Models\\ViewModels\\NotaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:50:29.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TurmaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\ViewModels\\TurmaViewModel.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Models\\ViewModels\\TurmaViewModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\ViewModels\\TurmaViewModel.cs",
+              "RelativeToolTip": "projeto-final\\Models\\ViewModels\\TurmaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:30:44.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "..\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "..\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-27T12:43:07.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PresencaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\ViewModels\\PresencaViewModel.cs",
+              "RelativeDocumentMoniker": "projeto-final\\Models\\ViewModels\\PresencaViewModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Models\\ViewModels\\PresencaViewModel.cs",
+              "RelativeToolTip": "projeto-final\\Models\\ViewModels\\PresencaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:46:01.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "projeto-final\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "projeto-final\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T11:57:53.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "projeto-final.http",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\projeto-final.http",
+              "RelativeDocumentMoniker": "projeto-final\\projeto-final.http",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\projeto-final.http",
+              "RelativeToolTip": "projeto-final\\projeto-final.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-24T16:53:23.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "projeto-final\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\projeto-final\\projeto-final\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "projeto-final\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-24T13:49:31.779Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

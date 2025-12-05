@@ -1,0 +1,663 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\controllers\\presencascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\controllers\\presencascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\pg-inicial\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\pg-inicial\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\models\\inputmodels\\turmainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\models\\inputmodels\\turmainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\models\\inputmodels\\notainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\models\\inputmodels\\notainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\models\\inputmodels\\presencainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\models\\inputmodels\\presencainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\models\\inputmodels\\alunoinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\models\\inputmodels\\alunoinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\models\\viewmodels\\turmaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\models\\viewmodels\\turmaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\models\\viewmodels\\presencaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\models\\viewmodels\\presencaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\models\\viewmodels\\notaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\models\\viewmodels\\notaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\models\\viewmodels\\alunoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\models\\viewmodels\\alunoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\alunos\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\alunos\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\alunos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\alunos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\turmas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\turmas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\turmas\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\turmas\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\presencas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\presencas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\notas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\notas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\views\\notas\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\views\\notas\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Presencas\\ListaPresenca.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjetoFinal-MVC\\Views\\Presencas\\ListaPresenca.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|c:\\users\\senai3em\\documents\\senai\\proj final\\projetofinal-mvc\\projetofinal-mvc\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7627D4DA-E6B6-41B6-9353-46FE8D855308}|ProjetoFinal-MVC\\ProjetoFinal-MVC.csproj|solutionrelative:projetofinal-mvc\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ProjetoFinal-MVC\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAEUCAAAAAAAAAAAQwF4CAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-07T17:59:44.904Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TurmasController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\TurmasController.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Controllers\\TurmasController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\TurmasController.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Controllers\\TurmasController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAwFYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T16:39:04.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAwwD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:26:01.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:42:00.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAswFoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:08:20.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAQwE8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T15:11:02.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlunosController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\AlunosController.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Controllers\\AlunosController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\AlunosController.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Controllers\\AlunosController.cs",
+              "ViewState": "AQIAAO0AAAAAAAAAAAAQwPoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T16:39:21.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotasController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\NotasController.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Controllers\\NotasController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\NotasController.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Controllers\\NotasController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAgwJwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:06:26.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PresencasController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\PresencasController.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Controllers\\PresencasController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\PresencasController.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Controllers\\PresencasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:15:10.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T18:26:21.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\appsettings.json",
+              "RelativeToolTip": "ProjetoFinal-MVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T15:34:23.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvzIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T15:25:39.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Pg-Inicial\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Pg-Inicial\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Pg-Inicial\\Dashboard.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Pg-Inicial\\Dashboard.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T10:35:39.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ProjetoFinal-MVC\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAACwCAAAAAAAAAAAAADQCAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-30T18:21:10.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T15:41:53.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T16:21:02.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Program.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:17:41.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TurmaInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\InputModels\\TurmaInputModel.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Models\\InputModels\\TurmaInputModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\InputModels\\TurmaInputModel.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Models\\InputModels\\TurmaInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:12:01.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NotaInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\InputModels\\NotaInputModel.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Models\\InputModels\\NotaInputModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\InputModels\\NotaInputModel.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Models\\InputModels\\NotaInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:06:53.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PresencaInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\InputModels\\PresencaInputModel.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Models\\InputModels\\PresencaInputModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\InputModels\\PresencaInputModel.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Models\\InputModels\\PresencaInputModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:36:29.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AlunoInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\InputModels\\AlunoInputModel.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Models\\InputModels\\AlunoInputModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\InputModels\\AlunoInputModel.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Models\\InputModels\\AlunoInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T13:50:14.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TurmaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\ViewModels\\TurmaViewModel.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Models\\ViewModels\\TurmaViewModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\ViewModels\\TurmaViewModel.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Models\\ViewModels\\TurmaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:11:36.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PresencaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\ViewModels\\PresencaViewModel.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Models\\ViewModels\\PresencaViewModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\ViewModels\\PresencaViewModel.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Models\\ViewModels\\PresencaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:36:44.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NotaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\ViewModels\\NotaViewModel.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Models\\ViewModels\\NotaViewModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\ViewModels\\NotaViewModel.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Models\\ViewModels\\NotaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:07:05.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AlunoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\ViewModels\\AlunoViewModel.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Models\\ViewModels\\AlunoViewModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Models\\ViewModels\\AlunoViewModel.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Models\\ViewModels\\AlunoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T13:51:02.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAuwBEBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T16:04:08.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAAANEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:59:59.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Alunos\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Alunos\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Alunos\\Cadastrar.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Alunos\\Cadastrar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T13:53:26.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T16:44:14.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Alunos\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Alunos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Alunos\\Index.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Alunos\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADgAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T16:43:17.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Alunos\\Editar.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Alunos\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Alunos\\Editar.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Alunos\\Editar.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T16:16:29.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Turmas\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Turmas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Turmas\\Index.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Turmas\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T17:44:15.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Turmas\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Turmas\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Turmas\\Cadastrar.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Turmas\\Cadastrar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T17:48:26.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T15:43:16.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Presencas\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Presencas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Presencas\\Index.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Presencas\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACwAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T11:29:36.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Notas\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Notas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Notas\\Index.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Notas\\Index.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T16:42:07.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Adicionar.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Notas\\Adicionar.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Notas\\Adicionar.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Notas\\Adicionar.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Notas\\Adicionar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T12:47:10.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "favicon.ico - Icon [32x32, 32 bits, BMP]",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\wwwroot\\favicon.ico - Icon [32x32, 32 bits, BMP]",
+              "RelativeToolTip": "ProjetoFinal-MVC\\wwwroot\\favicon.ico - Icon [32x32, 32 bits, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-11-27T18:22:22.689Z",
+              "EditorCaption": " - Icon [32x32, 32 bits, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ListaPresenca.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Presencas\\ListaPresenca.cshtml",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\Views\\Presencas\\ListaPresenca.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\Views\\Presencas\\ListaPresenca.cshtml",
+              "RelativeToolTip": "ProjetoFinal-MVC\\Views\\Presencas\\ListaPresenca.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T16:12:50.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ProjetoFinal-MVC\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\SENAI\\Proj final\\ProjetoFinal-MVC\\ProjetoFinal-MVC\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ProjetoFinal-MVC\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-30T15:07:35.783Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1629 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/*--------------Pg Abertura------------*/
+
+.PgEntrada-body {
+    background-color: #fbd4b1;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6711a4;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* Container principal*/
+.PgEntrada-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 2rem 5%;
+}
+
+/* Cabeçalho */
+.PgEntrada-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+    .PgEntrada-header .logo {
+        height: 50px;
+        width: auto;
+    }
+
+/* Botão Registrar (Superior Direito) */
+.register-btn {
+    background-image: linear-gradient(to right, #F97316, #6711A4);
+    color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background-color: transparent;
+    transition: opacity 0.2s ease;
+}
+
+    .register-btn:hover {
+        opacity: 0.8;
+        color: #FFFFFF;
+    }
+
+/* Conteúdo principal (dividido em 2 colunas) */
+.PgEntrada-main {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+/* Coluna da Esquerda (Texto e Botão) */
+.content-left {
+    flex-basis: 45%;
+    max-width: 600px;
+    margin-top: 3rem;
+}
+
+    .content-left h1 {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 3rem;
+        margin: 0;
+        color: #6711a4;
+    }
+
+/* Botão Laranja de Login */
+.login-btn {
+    background-color: #F97316;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 5rem;
+    transition: background-color 0.2s ease;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 350px;
+}
+
+    .login-btn:hover {
+        background-color: #EA580C;
+        color: #FFFFFF;
+    }
+
+/* Coluna da Direita (Imagem) */
+.content-right {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-top: 0;
+    padding-right: 1.5rem;
+}
+
+    .content-right img {
+        max-width: 75%;
+        height: auto;
+        object-fit: contain;
+    }
+
+
+/*---------- Register -----------*/
+/* Body e Background */
+.register-page-body {
+    background-color: #f6f3ff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* Header (Logo) */
+.register-header {
+    width: 100%;
+    padding: 2rem 5%;
+    box-sizing: border-box;
+}
+
+.register-logo {
+    height: 35px;
+    width: auto;
+}
+
+/* Centralização do Card */
+.register-card-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+/* Card Principal */
+.register-card {
+    display: flex;
+    background-color: #EDE8F4;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 950px;
+    height: auto;
+    overflow: hidden;
+}
+
+/* Lado Esquerdo: Foto */
+.profile-area {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0e6fa;
+}
+
+/* Círculo de Foto */
+.profile-pic-container {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* O ÍCONE PLACEHOLDER: */
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    display: block;
+}
+
+/* Botão Mudar Foto */
+.upload-btn {
+    background-color: white;
+    color: #6711a4;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .upload-btn:hover {
+        background-color: #f0f0f0;
+    }
+
+/* Lado Direito: Formulário */
+.form-area {
+    flex: 2;
+    padding: 40px 60px;
+    background-color: #ffd77a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.register-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6711a4;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo dos Inputs */
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    border: 2px dashed #6711a4;
+    background-color: #f7f7f7;
+    font-size: 1rem;
+    color: #444;
+    display: block;
+}
+
+    .input-field::placeholder {
+        color: #AAA;
+    }
+
+    .input-field:focus {
+        outline: none;
+        border-bottom: 2px solid #6711a4;
+    }
+
+/* Botão CONFIRMAR */
+.btn-confirmar {
+    background-color: #47c75f;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: opacity 0.2s ease;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.4);
+}
+
+    .btn-confirmar:hover {
+        opacity: 0.9;
+    }
+
+/* Link "Já tem uma conta?" */
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+    .login-link a {
+        color: #6711a4;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+
+.validation-summary {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text-danger {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/*---------- Login -----------*/
+.login-card {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd77a;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Container do Formulário */
+.login-form-container {
+    max-width: 550px;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    .login-form-container .form-group {
+        width: 100%;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+/* Título de Login */
+.login-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6711a4;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Btn confirmar */
+.login-form-container .btn-confirmar {
+    padding: 10px 15px;
+    font-size: 1rem;
+    max-width: 150px;
+    margin: 15px auto 0 auto;
+    box-shadow: 0 4px 10px rgba(71, 199, 95, 0.4);
+}
+
+/* Estilo para links de recuperação/registro */
+.action-link-group {
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+    .action-link-group a {
+        color: #6711a4;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 0.95rem;
+    }
+
+        .action-link-group a:hover {
+            text-decoration: underline;
+        }
+
+.primary-action-link {
+    font-size: 1rem;
+    font-weight: 500 !important;
+    color: #444 !important;
+}
+
+    .primary-action-link:hover {
+        text-decoration: none !important;
+    }
+
+/* Estilo para o link "Cadastre-se" */
+.secondary-action-link {
+    font-weight: 700 !important;
+    color: #6711a4 !important;
+}
+
+    .secondary-action-link:hover {
+        text-decoration: underline !important;
+    }
+
+/*-------------- Nav Principal ------------*/
+/* Estilo da Barra de Navegação Principal */
+.Nav-Laranja {
+    background-color: #ff8c42;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.Nav-Container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+    gap: 20px;
+}
+
+/* Logo */
+.Logo-Link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.Logo-Header {
+    height: 40px;
+    width: auto;
+}
+
+/* Abas de Navegação (Turmas e Lista de Presença) */
+.Abas-Container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0 50px;
+}
+
+.Aba-Link {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    margin: 0 10px;
+    position: relative;
+    border-bottom: 4px solid transparent;
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+    box-sizing: border-box;
+}
+ 
+/* Hover Roxo */
+.Aba-Link:hover {
+    background-color: rgba(106, 13, 173, 0.1);
+    color: #6a0dad;
+    text-decoration: none;
+}
+
+ 
+/* Linha Roxa Ativa */
+.Aba-Link.Ativa {
+    border-bottom: 4px solid #6a0dad;
+    font-weight: bold;
+    color: #6a0dad;
+}
+
+/* Ícone de Perfil e Dropdown */
+.Perfil-Container {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 10px;
+    transition: background-color 0.2s;
+}
+
+.Perfil-Container:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.Icon-Perfil {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 40px;
+    padding: 0;
+    line-height: 1;
+    z-index: 100;
+    display: block;
+}
+
+.Foto-Perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+/* 5. Balãozinho (Dropdown) */
+.Perfil-Container > .Perfil-Dropdown {
+    display: none !important;
+    position: absolute;
+    top: 65px;
+    margin-top: 0;
+    right: 0;
+    width: 200px;
+    flex-direction: column;
+    min-height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #6a0dad;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    z-index: 99999;
+}
+
+.Perfil-Container > .Perfil-Dropdown::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+    z-index: 100000;
+}
+
+.Perfil-Container > .Perfil-Dropdown.Visivel {
+    display: flex !important;
+}
+
+.Nome-Usuario {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+/* Botão de Sair (Logout) */
+.Botao-Sair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #dc3545;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+    text-transform: uppercase;
+}
+
+    .Botao-Sair:hover {
+    background-color: #c82333;
+}
+
+/* Ícone de Porta/Exit no Botão Sair */
+    .Botao-Sair i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+/*--------------------- Dashboard -------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    color: #ffffff;
+    background-color: #f7f7f7;
+}
+
+/* Seção Principal (Hero) */
+.hero-section {
+    padding: 0 0 50px 0;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    background: radial-gradient(circle at 0% 0%, #58098f, #8420cb, #cbb5db, #fbd4b1, #fbd4b1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-content-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 1600px;
+    padding: 80px 50px 0 50px;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-text-and-cards {
+    flex-basis: 45%;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+.hero-description {
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 70px;
+    max-width: 100%;
+    color: white;
+}
+
+/* Container da Imagem Principal */
+.hero-image-container {
+    flex-basis: 55%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 15px;
+    margin-right: -50px;
+}
+
+.hero-photo {
+    width: 100%;
+    margin-top: 25px;
+    max-width: 1000px;
+    height: auto;
+    object-fit: contain;
+    transform: translateY(-80px);
+}
+
+/* Cards de Funcionalidades */
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: calc(33.33% - 13.33px);
+    min-width: 280px;
+    min-height: 150px;
+}
+
+/* Ícone e Título */
+.card-header-flex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-icon {
+    width: 70px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.card-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 0.95em;
+    line-height: 1.35;
+    width: 100%;
+    color: black;
+}
+
+/*--------------------- Turmas ----------------------*/
+body {
+    background-color: #f1eefb;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Container Principal */
+.container-principal {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Título e Botão de Adicionar Turma */
+.cabecalho-turmas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+    .cabecalho-turmas h2 {
+        font-size: 1.8em;
+        color: 333;
+    }
+
+.btn-adicionar {
+    background-color: #e0b0ff;
+    color: #4b0082;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .btn-adicionar:hover {
+        background-color: #d19eff;
+    }
+
+/* Layout dos Cards de Turma */
+.grid-turmas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 10px;
+    padding-right: 40px;
+    position: relative;
+}
+
+/* Card Individual da Turma */
+.card-turma {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #eee;
+    transition: transform 0.2s;
+    min-height: 120px;
+}
+
+    .card-turma:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-turma h3 {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+        color: #FF9933;
+        font-weight: 700;
+    }
+
+    .card-turma p.ano-letivo {
+        font-size: 0.9em;
+        color: #999;
+        margin-bottom: 10px;
+    }
+
+    .card-turma p.alunos {
+        font-size: 0.9em;
+        color: #333;
+        font-weight: bold;
+    }
+
+/* Botões dentro do card (Lixeira e Seta) */
+.card-acoes {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-lixeira {
+    cursor: pointer;
+    color: #aaa;
+    transition: color 0.2s;
+    font-size: 1.2em;
+}
+
+    .btn-lixeira:hover {
+        color: #F65F5F;
+    }
+
+.btn-seta {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 2em;
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 0;
+    margin: 0;
+}
+
+    .btn-seta:hover {
+        color: #FF9933;
+    }
+
+
+/* Modal de Confirmação de Exclusão */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-confirmacao {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 350px;
+    transform: scale(0.9);
+    transition: transform 0.3s ease-out;
+}
+
+    .modal-confirmacao.ativo {
+        transform: scale(1);
+    }
+
+    .modal-confirmacao p {
+        margin-bottom: 20px;
+        font-size: 1.1em;
+    }
+
+.modal-botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+    .modal-botoes button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: opacity 0.2s;
+    }
+
+#btn-excluir-confirmar {
+    background-color: #F65F5F;
+    color: white;
+}
+
+#btn-excluir-cancelar {
+    background-color: #F65F5F;
+    color: #333;
+}
+
+
+/* ---------------- Páginas de Cadastro --------------------*/
+.form-cadastro {
+    max-width: 500px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+    .form-cadastro h2 {
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group input[type="text"],
+    .form-group input[type="number"],
+    .form-group input[type="date"] {
+        width: 100%;
+        padding: 12px 15px;
+        border: 1px dashed #ccc;
+        border-radius: 8px;
+        font-size: 1.1em;
+        box-sizing: border-box;
+    }
+
+/* Estilo específico para o campo de data/ano */
+.input-com-icone {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+    .input-com-icone input {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding-right: 40px;
+    }
+
+.input-com-icone .icone-calendario {
+    position: absolute;
+    right: 15px;
+    color: #FF9933;
+    font-size: 1.2em;
+    pointer-events: none;
+}
+
+/* Botões de Ação do Cadastro */
+.botoes-cadastro {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn-confirma {
+    background-color: #6BCB77;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .btn-confirma:hover {
+        background-color: #5bb367;
+    }
+
+.btn-cancela {
+    background-color: #F65F5F;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .btn-cancela:hover {
+        background-color: #e65656;
+        color: white;
+    }
+
+/*----------------- Lista alunos ----------------*/
+body {
+    background-color: #F8F4F0
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-alunos-lista {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.header-alunos {
+    max-width: 1200px;
+    margin: 40px auto 20px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-turma {
+    display: flex;
+    align-items: center;
+}
+
+.btn-voltar-turmas {
+    color: #4b0082;
+    font-size: 2em;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+    .btn-voltar-turmas:hover {
+        color: #ff9933;
+    }
+
+.titulo-turma h1 {
+    color: #4b0082;
+    font-size: 26px;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+/* Ações (Adicionar) */
+.acoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Botão Adicionar Aluno */
+.btn-adicionar {
+    background-color: #e0b0ff;
+    color: #4b0082;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .btn-adicionar:hover {
+        background-color: #d19eff;
+    }
+
+/* --- Tabela de alunos --- */
+
+.tabela-alunos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+    /* Cabeçalho da Tabela */
+    .tabela-alunos thead {
+        background-color: #4b0082;
+        color: white;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .tabela-alunos th {
+        padding: 15px 15px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 1.1em;
+    }
+
+/* Colunas*/
+.tabela-alunos th:nth-child(1) {
+    width: 40%;
+}
+
+/* Nome */
+.tabela-alunos th:nth-child(2) {
+    width: 20%;
+}
+/* Data de Nascimento */
+.tabela-alunos th:nth-child(3) {
+    width: 15%;
+}
+/* RM */
+.tabela-alunos th:nth-child(4) {
+    width: 25%;
+    text-align: center;
+}
+
+/* Linhas da tabela */
+.tabela-alunos tbody tr {
+    transition: background-color 0.2s;
+}
+
+.tabela-alunos tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.tabela-alunos tbody tr:nth-child(even) {
+    background-color: #fce8d5;
+}
+
+.tabela-alunos td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+    font-size: 1.05em;
+}
+
+.tabela-alunos .linha-aluno-clicavel {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.tabela-alunos .linha-aluno-clicavel:hover {
+    background-color: #f0f0f0;
+}
+
+/* Botões */
+.tabela-alunos td:last-child {
+    text-align: center;
+}
+
+.btn-editar, .btn-apagar {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 0 5px;
+    transition: opacity 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-editar {
+    background-color: #ff9933;
+    color: white;
+    text-decoration: none;
+}
+
+    .btn-editar:hover {
+        background-color: #e68a2e;
+        color: white;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+
+.btn-apagar {
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+}
+
+    .btn-apagar:hover {
+        background-color: #c0392b;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+
+/* Mensagens de Erro */
+.text-danger {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ----------------- Pagina do Aluno - Notas ----------------- */
+.header-aluno-notas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+.header-aluno-notas .titulo-aluno {
+    display: flex;
+    align-items: center;
+}
+
+    .header-aluno-notas h1 {
+        font-size: 1.8em;
+        color: #4B0082;
+        margin: 0;
+    }
+
+    .header-aluno-notas strong {
+        font-weight: 700;
+    }
+
+    .header-aluno-notas .btn-adicionar-nota {
+        background-color: #A020F0;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+        .header-aluno-notas .btn-adicionar-nota:hover {
+            background-color: #8A2BE2;
+        }
+
+/* Container Principal (Grid/Flex Columns)*/
+.container-aluno-detalhes {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.col-presenca-media {
+    flex: 0 0 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.col-notas {
+    flex-grow: 1;
+}
+
+/*Cards de Detalhe (Presença/Média)*/
+.card-detalhe {
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .card-detalhe h2 {
+        font-size: 1.1em;
+        color: #4B0082;
+        margin-top: 0;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+.valor-grande {
+    font-size: 3.5em;
+    font-weight: 800;
+    color: #FF8C00;
+    line-height: 1;
+    margin: 10px 0 20px 0;
+}
+
+    .valor-grande .unidade {
+        font-size: 0.4em;
+        font-weight: 600;
+        color: #333;
+        margin-left: 5px;
+    }
+
+.card-detalhe p {
+    font-size: 0.95em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.legenda-media {
+    font-style: italic;
+    font-size: 0.85em !important;
+    color: #777 !important;
+}
+
+/* --- Seção de Notas --- */
+.col-notas h2 {
+    font-size: 1.6em;
+    color: #4B0082;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.acoes-notas-topo {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.acoes-notas-rodape {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+/* Lista de Cards de Notas */
+.lista-notas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-nota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFACD;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+    /* Estilos individuais dos itens da nota */
+    .card-nota .card-conteudo {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+.avaliacao-titulo {
+    font-weight: bold;
+    width: 50%;
+    margin: 0;
+    color: #333;
+}
+
+.avaliacao-data {
+    font-size: 0.9em;
+    color: #666;
+    width: 25%;
+    margin: 0;
+}
+
+.avaliacao-nota {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #008000;
+    width: 25%;
+    text-align: right;
+    margin: 0;
+}
+
+/* ESTILOS: MODO DE SELEÇÃO (CONTROLADO POR JS) */
+
+.card-nota .nota-checkbox {
+    display: none;
+    margin-left: 15px;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.lista-notas.modo-selecao-ativo .card-nota .nota-checkbox {
+    display: block;
+}
+
+.card-nota.selecionado {
+    background-color: #E0FFFF;
+    border-color: #00BFFF;
+    box-shadow: 0 0 5px rgba(0, 191, 255, 0.5);
+}
+
+.lista-notas.modo-selecao-ativo .card-nota {
+    justify-content: space-between;
+}
+
+/*Estilos para Botões de Ação de Notas*/
+.btn-secundario {
+    background-color: #f0f0f0;
+    color: #4B0082;
+    padding: 8px 15px;
+    border: 1px solid #4B0082;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+    .btn-secundario:hover {
+        background-color: #4B0082;
+        color: white;
+    }
+
+.btn-apagar-secundario {
+    background-color: transparent;
+    color: #FF4500;
+    padding: 8px 15px;
+    border: 1px solid #FF4500;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+    .btn-apagar-secundario:hover {
+        background-color: #FF4500;
+        color: white;
+    }
+
+.btn-cancela {
+    background-color: #ccc;
+    color: #333;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+    .btn-cancela:hover {
+        background-color: #aaa;
+    }
+
+/* ----------------- Lista de Presença ---------------- */
+body {
+    background-color: #f4f4f4;
+}
+
+.titulo-lista {
+    color: #4b0082;
+    font-size: 26px;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.container-principal {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px; 
+}
+
+.lista-presenca-controles {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 15px 0;
+}
+
+.acoes-data-turma {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Ações (Dropdown e Input de Data) */
+.select-wrapper,
+.input-data-wrapper {
+    position: relative;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.select-turma-data {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    min-width: 200px;
+    appearance: none;
+    height: 40px;
+}
+
+/* Ícone de dropdown personalizado */
+.select-wrapper::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #666;
+    font-size: 0.75rem;
+}
+
+.btn-salvar-presenca {
+    padding: 10px 25px;
+    background-color: #9c27b0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, opacity 0.2s;
+    text-transform: uppercase;
+    height: 40px;
+}
+
+    .btn-salvar-presenca:hover:not(:disabled) {
+        background-color: #7b1fa2;
+    }
+
+    .btn-salvar-presenca:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+/* TABELA DE PRESENÇA (Container) */
+
+.lista-presenca-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.mensagem-status {
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 500;
+}
+
+/* CABEÇALHO DA TABELA */
+.cabecalho-presenca {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    background-color: #f47b20;
+    padding: 15px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.col-aluno {
+    flex: 3;
+    text-align: left;
+}
+
+.col-presenca {
+    flex: 1;
+    text-align: center;
+}
+
+/* CORPO DA TABELA */
+.corpo-tabela-presenca {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.aluno-linha {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.1s;
+    cursor: default;
+}
+
+    .aluno-linha:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .aluno-linha:hover {
+        background-color: #f0f0f0;
+    }
+
+/* BOTÕES DE PRESENÇA (Toggle)  */
+.btn-toggle-presenca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+    .btn-toggle-presenca:active {
+        transform: scale(0.95);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    /* PRESENTE (Verde) */
+    .btn-toggle-presenca.btn-presente {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    /* FALTA (Vermelho) */
+    .btn-toggle-presenca.btn-falta {
+        background-color: #F44336;
+        color: white;
+    }
+    .btn-toggle-presenca i {
+        font-size: 1.1rem;
+        line-height: 1;
+    }

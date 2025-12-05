@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProjetoFinal_MVC.Data
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    var user = await UserManager.GetUserAsync(User);
+    <div class="dropdown" style="position: relative;">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="@(!string.IsNullOrEmpty(user.FotoPerfil) ? user.FotoPerfil : "/img/default-user.png")"
+                 alt="Foto de perfil"
+                 class="rounded-circle"
+                 style="width:40px;height:40px;object-fit:cover;">
+            <span>@user.Nome</span>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" asp-area="" asp-page="/Account/Manage/Index">Perfil</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li>
+                <form method="post" asp-area="Identity" asp-page="/Account/Logout">
+                    <button type="submit" class="dropdown-item text-danger">Sair da conta</button>
+                </form>
+            </li>
+        </ul>
+    </div>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Registrar-se</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Entrar</a>
+    </li>
+}
+</ul>

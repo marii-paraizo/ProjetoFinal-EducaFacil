@@ -1,0 +1,111 @@
+﻿@model List<ProjetoFinal_MVC.Models.ViewModels.NotaViewModel>
+@using ProjetoFinal_MVC.Models.ViewModels
+@{
+    var idAluno = ViewBag.IdAluno as Guid? ?? Guid.Empty;
+    var nomeAluno = ViewBag.NomeAluno as string ?? "Aluno Desconhecido";
+    var baseApiUrlNotas = ViewBag.BaseApiUrlNotas as string ?? "";
+
+    var totalAulas = ViewBag.AulasTotais as int? ?? 0;
+    var faltas = ViewBag.Faltas as int? ?? 0;
+    var percentualPresenca = ViewBag.PorcentagemPresenca as double? ?? 0.0;
+
+    ViewData["Title"] = $"Notas de {nomeAluno}";
+    ViewData["IsFullWidthPage"] = true;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+}
+
+<div class="container-principal">
+<div class="header-aluno-notas">
+    <div class="titulo-aluno">
+        <a href="@Url.Action("Index", "Alunos")" class="btn-voltar-turmas">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <h1>Página do aluno(a): <strong>@nomeAluno</strong></h1>
+    </div>
+    
+    <a href="@Url.Action("Adicionar", "Notas", new { idAluno = idAluno, nomeAluno = nomeAluno })" class="btn-adicionar">
+        + ADICIONAR NOTA
+    </a>
+</div>
+
+<div class="container-aluno-detalhes">
+    
+    <div class="col-presenca-media">
+        <div class="card-detalhe">
+            <h2>Porcentagem de presença</h2>
+            <div class="valor-grande">
+                @percentualPresenca.ToString("F1")<span class="unidade">%</span>
+            </div>
+            <p>Aulas totais: <strong>@totalAulas</strong></p>
+            <p>Faltas: <strong>@faltas</strong></p>
+        </div>
+
+        <div class="card-detalhe">
+            <h2>Média Calculada</h2>
+            <div class="valor-grande media-calculada" id="media-aluno-display">
+                --.-- <span class="unidade">/ 10</span>
+            </div>
+            <p class="legenda-media">(Selecione as notas abaixo para calcular)</p>
+        </div>
+    </div>
+
+    <div class="col-notas">
+        <h2>Notas</h2>
+
+        @if (!string.IsNullOrEmpty(ViewBag.ErroApi))
+        {
+            <p class="text-danger">@ViewBag.ErroApi</p>
+        }
+        else if (Model == null || !Model.Any())
+        {
+            <p>Nenhuma avaliação registrada. Clique em "+ Adicionar Nota".</p>
+        }
+        else
+        {
+            <div class="acoes-notas-topo">
+                <button id="btn-selecionar-avaliacoes" class="btn-secundario">Selecionar Avaliações</button>
+            </div>
+
+            <div class="lista-notas" id="lista-notas">
+                @foreach (var nota in Model)
+                {
+                    <div class="card-nota" data-id="@nota.IdNota" data-nota="@nota.Nota">
+                        <div class="card-conteudo">
+                            <p class="avaliacao-titulo">@nota.Avaliacao</p>
+                            <p class="avaliacao-data">@nota.DataAvaliacao.ToString("dd/MM/yyyy")</p>
+                            <p class="avaliacao-nota">@nota.Nota.ToString("F1") / 10</p>
+                        </div>
+                            <input type="checkbox"
+                                   class="nota-checkbox"
+                                   data-nota-valor="@(nota.Nota.ToString(System.Globalization.CultureInfo.InvariantCulture))" />
+                    </div>
+                }
+            </div>
+
+            <div class="acoes-notas-rodape" style="display: none;" id="acoes-notas-rodape">
+                <button id="btn-excluir-selecionadas" class="btn-apagar-secundario"><i class="fas fa-trash"></i> Excluir Selecionadas</button>
+                <button id="btn-cancelar-selecao" class="btn-cancela">Cancelar</button>
+            </div>
+        }
+    </div>
+</div>
+
+
+<div class="modal-overlay" id="modalExclusaoNotas" style="display: none;">
+    <div class="modal-confirmacao">
+        <p>Tem certeza que deseja excluir as <strong id="contagem-notas-excluir">0</strong> avaliação(ões) selecionada(s)?</p>
+        <div class="modal-botoes">
+            <button id="btn-excluir-notas-confirmar" class="btn-apagar">SIM, EXCLUIR</button>
+            <button id="btn-excluir-notas-cancelar" class="btn-cancela">CANCELAR</button>
+        </div>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/site.js"
+            data-notas-api-url="@(ViewBag.BaseApiUrlNotas)"
+            data-aluno-id="@(ViewBag.IdAluno)">
+    </script>
+}

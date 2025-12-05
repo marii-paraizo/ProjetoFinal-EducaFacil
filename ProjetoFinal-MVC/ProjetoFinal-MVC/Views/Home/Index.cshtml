@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Bem-vindo ao EducaFácil";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="PgEntrada-body">
+
+    <div class="PgEntrada-container">
+        <header class="PgEntrada-header">
+            <a asp-controller="Home" asp-action="Index">
+                <img src="~/Img/Logo-PgInicial.png" alt="EducaFácil Logo" class="logo" />
+            </a>
+
+            <a asp-area="Identity" asp-page="/Account/Register" class="register-btn">REGISTRAR</a>
+        </header>
+
+        <main class="PgEntrada-main">
+            <div class="content-left">
+                <h1>Gerencie suas turmas e alunos com facilidade</h1>
+
+                <a asp-area="Identity" asp-page="/Account/Login" class="login-btn">
+                    FAÇA LOGIN COMO PROFESSOR
+                </a>
+            </div>
+
+            <div class="content-right">
+                <img src="~/Img/Menina-PgInicial.png" alt="Acompanhe suas turmas em um só lugar">
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
